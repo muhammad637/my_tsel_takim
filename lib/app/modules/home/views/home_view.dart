@@ -13,16 +13,14 @@ class HomeView extends GetView<HomeController> {
         title: RichText(
           text: TextSpan(
             text: "Hai, ",
-            style: TextStyle(
-              fontSize: 18,
-            ),
+            style: TextStyle(fontSize: 18, color: Colors.white),
             children: [
               TextSpan(
-                text: "Muhammad",
+                text: "Takim",
                 style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
               )
             ],
           ),
